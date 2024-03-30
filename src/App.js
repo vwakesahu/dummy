@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import DocumentUploader from './comp/document';
+import OfflineDocumentUploader from './comp/document';
 
 function App() {
   return (
     <div className="App">
-      <DocumentUploader />
+      <OfflineDocumentUploader />
     </div>
   );
 }
